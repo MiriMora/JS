@@ -1,0 +1,8 @@
+const fecha = new Date()
+console.log(fecha)
+const fechaNacimiento = new Date(1994,1,23)
+console.log(fechaNacimiento)
+console.log(fecha>fechaNacimiento)
+console.log(fechaNacimiento.getDate)
+console.log(fechaNacimiento.getMonth() + 1)
+console.log(fechaNacimiento.getFullYear())
